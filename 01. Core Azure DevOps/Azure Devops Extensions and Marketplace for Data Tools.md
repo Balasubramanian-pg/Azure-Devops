@@ -4,7 +4,9 @@
 
 # Overview
 
-Azure DevOps extensions and Marketplace for data tools is a critical concept for data engineering teams leveraging Azure DevOps. This document provides an in-depth exploration of the topic, including practical guidance, best practices, and implementation patterns.
+Azure DevOps Marketplace extensions let data engineering teams extend their existing CI/CD workflows without building every integration from scratch. In practice, the value is not in installing more extensions, but in selecting tools that solve specific delivery problems, such as automating database deployments, integrating code quality checks, managing pipeline dependencies, and connecting external data platforms.
+
+The trade-off is operational: every extension introduces another dependency to govern, maintain, and secure. A production-ready setup should prioritize trusted publishers, compatibility with the organization's Azure DevOps environment, least-privilege permissions, and clear ownership. For data teams, extensions should complement native Azure DevOps capabilities, not introduce unnecessary complexity into pipelines that deploy SQL scripts, Databricks workloads, or data platform infrastructure.
 
 ## Why It Matters for Data Engineering
 
